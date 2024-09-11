@@ -14,7 +14,7 @@ services:
       - "5000:5000"
     environment:
       - PORT=5500
-      - MONGO_URL=mongodb://mongo:27017/mydatabase
+      - MONGO_URL=mongodb+srv://22it060:9NJz04uye9u8EtRf@cluster0.eh5ks.mongodb.net/Event_Management?retryWrites=true&w=majority&appName=Cluster0
     depends_on:
       - mongo
 
